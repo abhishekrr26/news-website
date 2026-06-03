@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body bgcolor="lightblue">
+    <h1 style="text-align: center;">Contact Us</h1>
+    <p style="text-align: center;"><i>If you have any questions or feedback, please feel free to reach out to us using the form below:</i></p>
+<form action="submit_form.php" method="post" style="text-align: center;">
+    <fieldset>
+    <legend>Contact Form</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="number">Phone Number:</label>
+    <input type="tel" id="number" name="number" required><br><br>
+    <label for="c1">Type of Communication:</label>
+    <select id="c1" name="c1" required>
+        <option value="sales">Sales</option>
+        <option value="service">Service</option>
+        <option value="enquiry">Enquiry</option>
+        <option value="complaint">Complaint</option>
+    </select><br><br>
+    <label for="m1">Description:</label><br>
+    <textarea id="m1" name="m1" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    </fieldset>
+</form>
+<div style="text-align: center;">
+    <a href="newsmain.html">Back to Home Page </a><br>
+    <a href="about.html">About Us</a>
+</div>
+
+
+</body>
+</html>
