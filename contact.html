@@ -14,7 +14,7 @@
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br><br>
     <label for="number">Phone Number:</label>
-    <input type="tel" id="number" name="number" required><br><br>
+    <input type="tel" id="number" name="number" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number"><br><br>
     <label for="c1">Type of Communication:</label>
     <select id="c1" name="c1" required>
         <option value="sales">Sales</option>
